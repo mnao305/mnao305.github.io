@@ -1,0 +1,45 @@
+body {
+    background-color: #d9f9ff;
+    text-align: center;
+    width: auto;
+}
+
+#main {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#icon img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px blue solid;
+}
+
+#name {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    color: #0037ff;
+}
+
+#links p {
+    font-size: 26px;
+    padding: 0;
+    margin: 12px 0;
+    color: #009dff;
+}
+
+a {
+    color: #009dff;
+    text-decoration: none;
+}
+
+#made p {
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 14px;
+}
