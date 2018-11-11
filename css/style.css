@@ -1,45 +1,72 @@
+html {
+    height: 100%;
+}
 body {
-    background-color: #d9f9ff;
+    margin: 0;
+    height: 100%;
+}
+
+#left {
+    width: 50%;
+    float: left;
+    background-color: #00558F;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    min-width: 160px;
+}
+#leftMain {
+    max-width: 300px;
+    min-width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#leftMain img {
+    max-width: 100%;
+    height: auto;
+    min-width: 15px;
+    min-height: 150px
+}
+#leftMain p {
     text-align: center;
-    width: auto;
+    color: #fff;
 }
-
-#main {
-    max-width: 500px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-#icon img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px blue solid;
-}
-
 #name {
     font-size: 32px;
-    margin: 0 0 20px 0;
-    color: #0037ff;
+    margin: 0;
+}
+#hoge {
+    font-size: 12px;
+    margin: 0;
 }
 
-#links p {
-    font-size: 26px;
-    padding: 0;
-    margin: 12px 0;
-    color: #009dff;
+#right {
+    width: 50%;
+    float: left;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    position: relative;
+    background-color: #CAE5CD;
 }
-
+#link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#link p {
+    font-size: 22px;
+}
 a {
-    color: #009dff;
     text-decoration: none;
+    color: #009dff;
 }
-
-#made p {
-    line-height: 22px;
-    margin: 20px 0;
+#link h3 {
+    font-size: 32px;
 }
-
-.description {
-    font-size: 14px;
+#link h3, #link p {
+    margin: 12px 0;
 }
