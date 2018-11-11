@@ -59,7 +59,7 @@ body {
     transform: translateY(-50%) translateX(-50%);
 }
 #link p {
-    font-size: 22px;
+    font-size: 26px;
 }
 a {
     text-decoration: none;
@@ -70,4 +70,15 @@ a {
 }
 #link h3, #link p {
     margin: 12px 0;
+}
+
+@media screen and (max-width: 320px) {
+    #link p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 380px) {
+    #link p {
+        font-size: 22px;
+    }
 }
