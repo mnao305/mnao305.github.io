@@ -78,10 +78,10 @@ window.addEventListener("wheel", (a) => {
 });
 
 
-touchStartX;
-touchStartY;
-touchMoveX;
-touchMoveY;
+touchStartX = null;
+touchStartY = null;
+touchMoveX = null;
+touchMoveY = null;
 
 window.addEventListener("touchstart", (event) => {
     event.preventDefault();
@@ -97,11 +97,11 @@ window.addEventListener("touchmove", (event) => {
 
 window.addEventListener("touchend", () => {
     if (touchStartY > touchMoveY) {
-        if (touchStartY > (touchMoveY + 50)) {
+        if (touchStartY > (touchMoveY + 10)) {
             pageNext();
         }
     } else if (touchStartY < touchMoveY) {
-        if ((touchStartY + 50) < touchMoveY) {
+        if ((touchStartY + 10) < touchMoveY) {
             pageBack();
         }
     }
