@@ -11,7 +11,7 @@ function animate(i) {
     const nowId = now[0].id;
     now = document.getElementById(nowId);
 
-    let nowIndex = page.indexOf(nowId);
+    const nowIndex = page.indexOf(nowId);
     if ((nowIndex === 0 && i === -1) || (nowIndex + 1 === page.length && i === 1)) {
         console.log("ふえぇ…これ以上はイケないよ…:;(∩´﹏`∩);:");
         return;
@@ -51,8 +51,6 @@ function animate(i) {
             next.classList.remove("fadeInDown");
         }, 1000);
     }
-
-
 }
 
 function pageBack() {
@@ -78,3 +76,33 @@ window.addEventListener("wheel", (a) => {
         flag = false;
     }, 1000);
 });
+
+
+touchStartX;
+touchStartY;
+touchMoveX;
+touchMoveY;
+
+window.addEventListener("touchstart", (event) => {
+    event.preventDefault();
+    touchStartX = event.touches[0].pageX;
+    touchStartY = event.touches[0].pageY;
+}, false);
+
+window.addEventListener("touchmove", (event) => {
+    event.preventDefault();
+    touchMoveX = event.changedTouches[0].pageX;
+    touchMoveY = event.changedTouches[0].pageY;
+}, false);
+
+window.addEventListener("touchend", () => {
+    if (touchStartY > touchMoveY) {
+        if (touchStartY > (touchMoveY + 50)) {
+            pageNext();
+        }
+    } else if (touchStartY < touchMoveY) {
+        if ((touchStartY + 50) < touchMoveY) {
+            pageBack();
+        }
+    }
+}, false);
