@@ -6,6 +6,10 @@ body {
     height: 100%;
     font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 #left {
     width: 50%;
@@ -13,16 +17,15 @@ body {
     background-color: #009688;
     height: 100%;
     min-height: 100%;
-    position: relative;
     min-width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #leftMain {
     max-width: 300px;
     min-width: 150px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    margin: 5px;
 }
 #leftMain img {
     max-width: 100%;
@@ -39,10 +42,6 @@ body {
     font-size: 32px;
     margin: 0;
 }
-#hoge {
-    font-size: 12px;
-    margin: 0;
-}
 
 #right {
     width: 50%;
@@ -52,34 +51,22 @@ body {
     text-align: center;
     position: relative;
     background-color: #B2DFDB;
-}
-#link {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-}
-#link p {
-    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 a {
     text-decoration: none;
     color: #004D40;
 }
-#link h3 {
-    font-size: 32px;
+.section p {
+    font-size: 2vw;
 }
-#link h3, #link p {
+.section h3 {
+    font-size: 6vw;
+    font-weight: normal;
+}
+.section h3, .section p {
     margin: 12px 0;
-}
-
-@media screen and (max-width: 380px) {
-    #link p {
-        font-size: 22px;
-    }
-}
-@media screen and (max-width: 320px) {
-    #link p {
-        font-size: 20px;
-    }
 }
