@@ -1,5 +1,4 @@
-const url = location.href;
-if (location.origin != "file://" && url !== "https://mnao305.com/") {
+if (location.host === "mnao305.github.io") {
     location.href = "https://mnao305.com/";
 }
 
