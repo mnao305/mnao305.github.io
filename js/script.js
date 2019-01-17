@@ -1,7 +1,3 @@
-if (location.host === "mnao305.github.io") {
-    location.href = "https://mnao305.com/";
-}
-
 flag = false;
 page = ["about", "link", "works"];
 
