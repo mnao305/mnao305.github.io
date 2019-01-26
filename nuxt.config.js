@@ -32,7 +32,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/style/app.styl'],
+  css: ['~/assets/style/app.styl', '@fortawesome/fontawesome-free/css/all.css'],
 
   /*
   ** Plugins to load before mounting the App
