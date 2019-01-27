@@ -1,6 +1,6 @@
 <template>
   <!-- デザインセンスをくれ -->
-  <v-layout wrap class="index">
+  <v-layout v-show="load" wrap class="index">
     <v-flex
       xs12
       sm6
@@ -88,6 +88,11 @@ export default {
     links,
     products
   },
+  data() {
+    return {
+      load: false
+    }
+  },
   computed: {
     about: {
       get() {
@@ -121,6 +126,9 @@ export default {
         this.$store.commit('toggleProducts')
       }
     }
+  },
+  mounted() {
+    this.load = true
   }
 }
 </script>
