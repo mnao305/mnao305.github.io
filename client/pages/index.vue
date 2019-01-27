@@ -149,7 +149,7 @@ export default {
       }
     }
     p {
-      font-size: 32px;
+      font-size: 48px;
       margin: 0 auto;
       text-align: center;
     }
