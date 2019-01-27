@@ -147,12 +147,12 @@ export default {
     flex-basis: 0;
     width: 300px;
     @media screen and (max-width: 500px) {
-      width: 250px;
+      width: 210px;
     }
     .icon {
       width: 300px;
       @media screen and (max-width: 500px) {
-        width: 250px;
+        width: 210px;
       }
       img {
         max-width: 100%;
@@ -166,6 +166,9 @@ export default {
       font-size: 48px;
       margin: 0 auto;
       text-align: center;
+      @media screen and (max-width: 500px) {
+        font-size: 32px;
+      }
     }
   }
 
@@ -173,10 +176,13 @@ export default {
     // margin: 0 auto;
     @media screen and (max-width: 500px) {
       position: relative;
-      bottom: 40px;
+      bottom: 30px;
     }
     .openBtn {
       font-size: 32px;
+      @media screen and (max-width: 500px) {
+        font-size: 26px;
+      }
     }
   }
 }
