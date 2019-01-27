@@ -146,8 +146,14 @@ export default {
     margin: 0 auto;
     flex-basis: 0;
     width: 300px;
+    @media screen and (max-width: 500px) {
+      width: 250px;
+    }
     .icon {
       width: 300px;
+      @media screen and (max-width: 500px) {
+        width: 250px;
+      }
       img {
         max-width: 100%;
         height: auto;
@@ -165,6 +171,10 @@ export default {
 
   .btns {
     // margin: 0 auto;
+    @media screen and (max-width: 500px) {
+      position: relative;
+      bottom: 40px;
+    }
     .openBtn {
       font-size: 32px;
     }
