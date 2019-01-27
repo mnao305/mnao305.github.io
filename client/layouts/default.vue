@@ -7,3 +7,9 @@
     </v-content>
   </v-app>
 </template>
+
+<style>
+.container {
+  height: 100%;
+}
+</style>
