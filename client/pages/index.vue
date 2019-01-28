@@ -60,13 +60,13 @@
       </v-btn>
     </v-flex>
 
-    <v-dialog v-model="about">
+    <v-dialog v-model="about" max-width="1000px">
       <about />
     </v-dialog>
-    <v-dialog v-model="historys">
+    <v-dialog v-model="historys" max-width="1000px">
       <historys />
     </v-dialog>
-    <v-dialog v-model="links">
+    <v-dialog v-model="links" max-width="500px">
       <links />
     </v-dialog>
     <v-dialog v-model="products">
