@@ -18,7 +18,9 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
-                imgFavtter
+                <a href="https://imgfavtter.mnao305.com/" target="_blank">
+                  imgFavtter
+                </a>
               </h3>
               <div>Twitterでいいねしてきた画像を無限に見ていけるWebアプリ</div>
             </div>
@@ -28,9 +30,6 @@
             <v-spacer />
             <v-btn flat color="cyan" href="https://github.com/mnao305/imgFavtter" target="_blank">
               <v-icon>fab fa-github</v-icon>Source code
-            </v-btn>
-            <v-btn flat color="cyan" href="https://imgfavtter.mnao305.com/" target="_blank">
-              Go to Web site
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -46,7 +45,9 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
-                VRCFriendCheck
+                <a href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl" target="_blank">
+                  VRCFriendCheck
+                </a>
               </h3>
               <div>VRChatのフレンドのオンライン状況やいるワールド等が確認できるChrome拡張機能</div>
             </div>
@@ -56,9 +57,6 @@
             <v-spacer />
             <v-btn flat color="cyan" href="https://github.com/mnao305/VRCFriendCheck" target="_blank">
               <v-icon>fab fa-github</v-icon>Source code
-            </v-btn>
-            <v-btn flat color="cyan" href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl" target="_blank">
-              Go to store
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -111,6 +109,10 @@
 }
 .products {
   .v-card {
+    a {
+      text-decoration: none;
+      color: #0097a7;
+    }
     margin: 5px;
   }
 }

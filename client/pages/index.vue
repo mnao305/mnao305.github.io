@@ -176,7 +176,7 @@ export default {
     // margin: 0 auto;
     @media screen and (max-width: 500px) {
       position: relative;
-      bottom: 30px;
+      bottom: 10px;
     }
     .openBtn {
       font-size: 32px;
