@@ -167,7 +167,7 @@ export default {
       margin: 0 auto;
       text-align: center;
       @media screen and (max-width: 500px) {
-        font-size: 32px;
+        font-size: 26px;
       }
     }
   }
@@ -181,7 +181,7 @@ export default {
     .openBtn {
       font-size: 32px;
       @media screen and (max-width: 500px) {
-        font-size: 26px;
+        font-size: 20px;
       }
     }
   }
