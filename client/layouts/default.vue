@@ -10,6 +10,6 @@
 
 <style>
 .container {
-  height: 100%;
+  height: 90%;
 }
 </style>

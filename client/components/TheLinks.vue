@@ -72,6 +72,9 @@
     list-style: none;
     font-size: 2rem;
     margin: 10px 0;
+    @media screen and (max-width: 500px) {
+      font-size: 1.5rem;
+    }
     a {
       display: block;
       width: 100%;
