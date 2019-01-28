@@ -40,6 +40,11 @@
           </a>
         </li>
         <li>
+          <a href="https://ja.foursquare.com/mnao_305" target="_blank">
+            <v-icon>fab fa-foursquare</v-icon>foursquare(Swarm)
+          </a>
+        </li>
+        <li>
           <a href="http://amzn.asia/aa05E8q" target="_blank">
             <v-icon>fab fa-amazon</v-icon>Amazon Wish List
           </a>
@@ -73,7 +78,7 @@
     font-size: 2rem;
     margin: 10px 0;
     @media screen and (max-width: 500px) {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     a {
       display: block;
@@ -83,6 +88,9 @@
     }
     .v-icon {
       font-size: 2.5rem;
+      @media screen and (max-width: 500px) {
+        font-size: 1.5rem;
+      }
       margin-right: 5px;
     }
   }
