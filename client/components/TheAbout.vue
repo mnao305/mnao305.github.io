@@ -39,6 +39,7 @@
 .about {
   p {
     font-size: 2rem;
+    word-break: keep-all;
     @media screen and (max-width: 500px) {
       font-size: 1rem;
     }
