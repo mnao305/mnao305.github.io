@@ -54,6 +54,7 @@
                   <v-list-tile
                     color="#0097a7"
                     href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl"
+                    target="_blank"
                   >
                     <v-list-tile-title class="text-xs-center">
                       Chrome版
@@ -62,6 +63,7 @@
                   <v-list-tile
                     color="#0097a7"
                     href="https://addons.mozilla.org/ja/firefox/addon/vrcfriendcheck/"
+                    target="_blank"
                   >
                     <v-list-tile-title class="text-xs-center">
                       Firefox版
