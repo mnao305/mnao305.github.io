@@ -36,7 +36,7 @@
         flat
         @click="$store.commit('toggleHistorys')"
       >
-        Historys→
+        History→
       </v-btn>
       <v-btn
         class="openBtn"

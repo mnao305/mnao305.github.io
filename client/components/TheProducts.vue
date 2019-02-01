@@ -19,7 +19,7 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
-                <a href="https://imgfavtter.herokuapp.com/" target="_blank">
+                <a href="https://imgfavtter.mnao305.com/" target="_blank">
                   imgFavtter
                 </a>
               </h3>
@@ -46,11 +46,31 @@
 
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">
-                <a href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl" target="_blank">
-                  VRCFriendCheck
-                </a>
-              </h3>
+              <v-menu offset-y>
+                <h3 slot="activator" class="headline mb-0">
+                  <a>VRCFriendCheck</a>
+                </h3>
+                <v-list class="listLink">
+                  <v-list-tile
+                    color="#0097a7"
+                    href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl"
+                    target="_blank"
+                  >
+                    <v-list-tile-title class="text-xs-center">
+                      Chrome版
+                    </v-list-tile-title>
+                  </v-list-tile>
+                  <v-list-tile
+                    color="#0097a7"
+                    href="https://addons.mozilla.org/ja/firefox/addon/vrcfriendcheck/"
+                    target="_blank"
+                  >
+                    <v-list-tile-title class="text-xs-center">
+                      Firefox版
+                    </v-list-tile-title>
+                  </v-list-tile>
+                </v-list>
+              </v-menu>
               <div>VRChatのフレンドのオンライン状況やいるワールド等が確認できるChrome拡張機能</div>
             </div>
           </v-card-title>
@@ -116,6 +136,9 @@
       color: #0097a7;
     }
     margin: 5px;
+  }
+  a {
+    color: #0097a7;
   }
 }
 </style>
