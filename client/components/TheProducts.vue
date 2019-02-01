@@ -19,7 +19,7 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
-                <a href="https://imgfavtter.herokuapp.com/" target="_blank">
+                <a href="https://imgfavtter.mnao305.com/" target="_blank">
                   imgFavtter
                 </a>
               </h3>
