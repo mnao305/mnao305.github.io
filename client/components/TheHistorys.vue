@@ -4,7 +4,7 @@
       class="headline cyan lighten-2"
       primary-title
     >
-      Historys
+      History
     </v-card-title>
 
     <v-card-text class="historys">
