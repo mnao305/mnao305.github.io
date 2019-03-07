@@ -23,7 +23,7 @@
                   imgFavtter
                 </a>
               </h3>
-              <div>Twitterでいいねしてきた画像を無限に見ていけるWebアプリ(画像はモザイク処理済み)</div>
+              <div>Twitterでいいねしてきた画像を無限に見ていけるWebアプリ</div>
             </div>
           </v-card-title>
 
