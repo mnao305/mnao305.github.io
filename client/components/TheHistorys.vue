@@ -11,6 +11,22 @@
       <v-expansion-panel v-model="panel" expand>
         <v-expansion-panel-content value="true">
           <div slot="header">
+            2019
+          </div>
+          <v-card>
+            <v-card-text>
+              <ul>
+                <li>
+                  6月21日 情報処理安全確保支援士試験 合格(<a href="https://twitter.com/mnao_305/status/1141905363697975296" target="_blank">
+                    Twitter
+                  </a>)
+                </li>
+              </ul>
+            </v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content>
+          <div slot="header">
             2018
           </div>
           <v-card>
