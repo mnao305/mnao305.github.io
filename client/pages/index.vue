@@ -8,7 +8,7 @@
       class="iconName"
     >
       <div class="icon">
-        <img src="/icon.jpg">
+        <img src="/icon.png">
       </div>
       <p>mnao305</p>
     </v-flex>
