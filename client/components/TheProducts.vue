@@ -121,6 +121,33 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
+                <a href="https://chrome.google.com/webstore/detail/exbeak/ppccoilacanjcjljekaggmeaeakdfhce" target="_blank">
+                  exbeak
+                </a>
+              </h3>
+              <div>ツイート専用のシンプルTwitterクライアントブラウザ拡張機能</div>
+            </div>
+          </v-card-title>
+
+          <v-card-actions>
+            <v-spacer />
+            <v-btn flat color="cyan" href="https://github.com/mnao305/mai-score" target="_blank">
+              <v-icon>fab fa-github</v-icon>Source code
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-flex>
+
+      <v-flex xs12 sm6 md4>
+        <v-card>
+          <v-img
+            src="/noimage.png"
+            aspect-ratio="2.75"
+          />
+
+          <v-card-title primary-title>
+            <div>
+              <h3 class="headline mb-0">
                 ポートフォリオサイト
               </h3>
               <div>このページです</div>
