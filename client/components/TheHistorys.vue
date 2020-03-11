@@ -17,6 +17,11 @@
             <v-card-text>
               <ul>
                 <li>
+                  11月9日 NRI Secure NetWars 2019 23/94位(<a href="https://twitter.com/mnao_305/status/1193076993337647104" target="_blank">
+                    Twitter
+                  </a>)
+                </li>
+                <li>
                   6月21日 情報処理安全確保支援士試験 合格(<a href="https://twitter.com/mnao_305/status/1141905363697975296" target="_blank">
                     Twitter
                   </a>)
@@ -25,7 +30,7 @@
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content value="true">
           <div slot="header">
             2018
           </div>
@@ -112,7 +117,7 @@
 export default {
   data() {
     return {
-      panel: [true]
+      panel: [true, true]
     }
   }
 }
