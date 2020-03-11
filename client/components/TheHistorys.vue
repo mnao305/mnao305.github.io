@@ -9,7 +9,7 @@
 
     <v-card-text class="historys">
       <v-expansion-panel v-model="panel" expand>
-        <v-expansion-panel-content value="true">
+        <v-expansion-panel-content>
           <div slot="header">
             2019
           </div>
@@ -30,7 +30,7 @@
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
-        <v-expansion-panel-content value="true">
+        <v-expansion-panel-content>
           <div slot="header">
             2018
           </div>
