@@ -9,13 +9,18 @@
 
     <v-card-text class="historys">
       <v-expansion-panel v-model="panel" expand>
-        <v-expansion-panel-content value="true">
+        <v-expansion-panel-content>
           <div slot="header">
             2019
           </div>
           <v-card>
             <v-card-text>
               <ul>
+                <li>
+                  11月9日 NRI Secure NetWars 2019 23/94位(<a href="https://twitter.com/mnao_305/status/1193076993337647104" target="_blank">
+                    Twitter
+                  </a>)
+                </li>
                 <li>
                   6月21日 情報処理安全確保支援士試験 合格(<a href="https://twitter.com/mnao_305/status/1141905363697975296" target="_blank">
                     Twitter
@@ -112,7 +117,7 @@
 export default {
   data() {
     return {
-      panel: [true]
+      panel: [true, true]
     }
   }
 }
