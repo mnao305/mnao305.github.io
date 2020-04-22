@@ -1,9 +1,6 @@
 <template>
   <v-card>
-    <v-card-title
-      class="headline cyan lighten-2"
-      primary-title
-    >
+    <v-card-title class="headline cyan lighten-2" primary-title>
       About
     </v-card-title>
 
@@ -14,7 +11,10 @@
         <v-icon>fa-desktop</v-icon>
         <p>VSCode / JavaScript / Vue.js / Nuxt.js</p>
         <v-icon>fa-certificate</v-icon>
-        <p>ITパスポート / 基本情報技術者試験 / 応用情報技術者試験 / 情報処理安全確保支援士試験</p>
+        <p>
+          ITパスポート / 基本情報技術者試験 / 応用情報技術者試験 /
+          情報処理安全確保支援士試験
+        </p>
         <v-icon>fa-trophy</v-icon>
         <p>MBSD Cybersecurity Challenges 2018 最優秀賞</p>
       </div>
@@ -24,11 +24,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn
-        color="primary"
-        flat
-        @click="$store.commit('toggleAbout')"
-      >
+      <v-btn color="primary" flat @click="$store.commit('toggleAbout')">
         Close
       </v-btn>
     </v-card-actions>

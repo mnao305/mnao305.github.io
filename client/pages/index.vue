@@ -1,23 +1,13 @@
 <template>
   <!-- デザインセンスをくれ -->
   <v-layout v-show="load" wrap class="index">
-    <v-flex
-      xs12
-      sm6
-      md6
-      class="iconName"
-    >
+    <v-flex xs12 sm6 md6 class="iconName">
       <div class="icon">
         <img src="/icon.png">
       </div>
       <p>mnao305</p>
     </v-flex>
-    <v-flex
-      xs12
-      sm6
-      md6
-      class="btns"
-    >
+    <v-flex xs12 sm6 md6 class="btns">
       <v-btn
         class="openBtn"
         color="cyan darken-2"
@@ -88,46 +78,46 @@ export default {
     links,
     products
   },
-  data() {
+  data () {
     return {
       load: false
     }
   },
   computed: {
     about: {
-      get() {
+      get () {
         return this.$store.state.about
       },
-      set() {
+      set () {
         this.$store.commit('toggleAbout')
       }
     },
     historys: {
-      get() {
+      get () {
         return this.$store.state.historys
       },
-      set() {
+      set () {
         this.$store.commit('toggleHistorys')
       }
     },
     links: {
-      get() {
+      get () {
         return this.$store.state.links
       },
-      set() {
+      set () {
         this.$store.commit('toggleLinks')
       }
     },
     products: {
-      get() {
+      get () {
         return this.$store.state.products
       },
-      set() {
+      set () {
         this.$store.commit('toggleProducts')
       }
     }
   },
-  mounted() {
+  mounted () {
     this.load = true
   }
 }

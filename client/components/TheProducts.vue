@@ -1,20 +1,13 @@
 <template>
   <v-card>
-    <v-card-title
-      class="headline cyan lighten-2"
-      primary-title
-    >
+    <v-card-title class="headline cyan lighten-2" primary-title>
       Products
     </v-card-title>
 
     <v-layout row wrap class="products">
       <v-flex xs12 sm6 md4>
         <v-card>
-          <v-img
-            src="/imgFavtter.png"
-            aspect-ratio="2.75"
-            contain
-          />
+          <v-img src="/imgFavtter.png" aspect-ratio="2.75" contain />
 
           <v-card-title primary-title>
             <div>
@@ -29,7 +22,12 @@
 
           <v-card-actions>
             <v-spacer />
-            <v-btn flat color="cyan" href="https://github.com/mnao305/imgFavtter" target="_blank">
+            <v-btn
+              flat
+              color="cyan"
+              href="https://github.com/mnao305/imgFavtter"
+              target="_blank"
+            >
               <v-icon>fab fa-github</v-icon>Source code
             </v-btn>
           </v-card-actions>
@@ -38,11 +36,7 @@
 
       <v-flex xs12 sm6 md4>
         <v-card>
-          <v-img
-            src="/VRCFriendCheck.png"
-            aspect-ratio="2.75"
-            contain
-          />
+          <v-img src="/VRCFriendCheck.png" aspect-ratio="2.75" contain />
 
           <v-card-title primary-title>
             <div>
@@ -71,13 +65,20 @@
                   </v-list-tile>
                 </v-list>
               </v-menu>
-              <div>VRChatのフレンドのオンライン状況やいるワールド等が確認できるChrome拡張機能</div>
+              <div>
+                VRChatのフレンドのオンライン状況やいるワールド等が確認できるChrome拡張機能
+              </div>
             </div>
           </v-card-title>
 
           <v-card-actions>
             <v-spacer />
-            <v-btn flat color="cyan" href="https://github.com/mnao305/VRCFriendCheck" target="_blank">
+            <v-btn
+              flat
+              color="cyan"
+              href="https://github.com/mnao305/VRCFriendCheck"
+              target="_blank"
+            >
               <v-icon>fab fa-github</v-icon>Source code
             </v-btn>
           </v-card-actions>
@@ -86,10 +87,7 @@
 
       <v-flex xs12 sm6 md4>
         <v-card>
-          <v-img
-            src="/noimage.png"
-            aspect-ratio="2.75"
-          />
+          <v-img src="/noimage.png" aspect-ratio="2.75" />
 
           <v-card-title primary-title>
             <div>
@@ -104,7 +102,12 @@
 
           <v-card-actions>
             <v-spacer />
-            <v-btn flat color="cyan" href="https://github.com/mnao305/mai-score" target="_blank">
+            <v-btn
+              flat
+              color="cyan"
+              href="https://github.com/mnao305/mai-score"
+              target="_blank"
+            >
               <v-icon>fab fa-github</v-icon>Source code
             </v-btn>
           </v-card-actions>
@@ -113,25 +116,32 @@
 
       <v-flex xs12 sm6 md4>
         <v-card>
-          <v-img
-            src="/noimage.png"
-            aspect-ratio="2.75"
-          />
+          <v-img src="/noimage.png" aspect-ratio="2.75" />
 
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
-                <a href="https://chrome.google.com/webstore/detail/exbeak/ppccoilacanjcjljekaggmeaeakdfhce" target="_blank">
+                <a
+                  href="https://chrome.google.com/webstore/detail/exbeak/ppccoilacanjcjljekaggmeaeakdfhce"
+                  target="_blank"
+                >
                   exbeak
                 </a>
               </h3>
-              <div>ツイート専用のシンプルTwitterクライアントブラウザ拡張機能</div>
+              <div>
+                ツイート専用のシンプルTwitterクライアントブラウザ拡張機能
+              </div>
             </div>
           </v-card-title>
 
           <v-card-actions>
             <v-spacer />
-            <v-btn flat color="cyan" href="https://github.com/mnao305/mai-score" target="_blank">
+            <v-btn
+              flat
+              color="cyan"
+              href="https://github.com/mnao305/mai-score"
+              target="_blank"
+            >
               <v-icon>fab fa-github</v-icon>Source code
             </v-btn>
           </v-card-actions>
@@ -140,25 +150,32 @@
 
       <v-flex xs12 sm6 md4>
         <v-card>
-          <v-img
-            src="/noimage.png"
-            aspect-ratio="2.75"
-          />
+          <v-img src="/noimage.png" aspect-ratio="2.75" />
 
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">
-                <a href="https://chrome.google.com/webstore/detail/video-screenshot/okbncahhjihmnjpiadepoioodfnfanjk" target="_blank">
+                <a
+                  href="https://chrome.google.com/webstore/detail/video-screenshot/okbncahhjihmnjpiadepoioodfnfanjk"
+                  target="_blank"
+                >
                   video-screenshot
                 </a>
               </h3>
-              <div>YouTube等動画サイトで簡単にスクリーンショットを撮ることができるブラウザ拡張機能</div>
+              <div>
+                YouTube等動画サイトで簡単にスクリーンショットを撮ることができるブラウザ拡張機能
+              </div>
             </div>
           </v-card-title>
 
           <v-card-actions>
             <v-spacer />
-            <v-btn flat color="cyan" href="https://github.com/mnao305/video-screenshot" target="_blank">
+            <v-btn
+              flat
+              color="cyan"
+              href="https://github.com/mnao305/video-screenshot"
+              target="_blank"
+            >
               <v-icon>fab fa-github</v-icon>Source code
             </v-btn>
           </v-card-actions>
@@ -167,10 +184,7 @@
 
       <v-flex xs12 sm6 md4>
         <v-card>
-          <v-img
-            src="/noimage.png"
-            aspect-ratio="2.75"
-          />
+          <v-img src="/noimage.png" aspect-ratio="2.75" />
 
           <v-card-title primary-title>
             <div>
@@ -183,7 +197,12 @@
 
           <v-card-actions>
             <v-spacer />
-            <v-btn flat color="cyan" href="https://github.com/mnao305/mnao305.github.io" target="_blank">
+            <v-btn
+              flat
+              color="cyan"
+              href="https://github.com/mnao305/mnao305.github.io"
+              target="_blank"
+            >
               <v-icon>fab fa-github</v-icon>Source code
             </v-btn>
           </v-card-actions>
@@ -195,11 +214,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn
-        color="primary"
-        flat
-        @click="$store.commit('toggleProducts')"
-      >
+      <v-btn color="primary" flat @click="$store.commit('toggleProducts')">
         Close
       </v-btn>
     </v-card-actions>

@@ -1,9 +1,6 @@
 <template>
   <v-card>
-    <v-card-title
-      class="headline cyan lighten-2"
-      primary-title
-    >
+    <v-card-title class="headline cyan lighten-2" primary-title>
       Links
     </v-card-title>
 
@@ -57,11 +54,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn
-        color="primary"
-        flat
-        @click="$store.commit('toggleLinks')"
-      >
+      <v-btn color="primary" flat @click="$store.commit('toggleLinks')">
         Close
       </v-btn>
     </v-card-actions>
