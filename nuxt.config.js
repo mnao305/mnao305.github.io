@@ -6,8 +6,8 @@ module.exports = {
   srcDir: 'client/',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: 'mnao305.com',
     meta: [
@@ -25,13 +25,13 @@ module.exports = {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#fff' },
 
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: [
     '~/assets/style/app.styl',
     '@fortawesome/fontawesome-free/css/all.css',
@@ -39,18 +39,18 @@ module.exports = {
   ],
 
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: ['@/plugins/vuetify', { src: '~/plugins/ga.js', ssr: false }],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [],
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     transpile: ['vuetify/lib'],
     plugins: [new VuetifyLoaderPlugin()],
@@ -61,9 +61,9 @@ module.exports = {
     },
 
     /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
+     ** You can extend webpack config here
+     */
+    extend (config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({

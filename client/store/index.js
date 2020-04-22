@@ -9,16 +9,16 @@ const createStore = () => {
       products: false
     }),
     mutations: {
-      toggleAbout(state) {
+      toggleAbout (state) {
         state.about = !state.about
       },
-      toggleHistorys(state) {
+      toggleHistorys (state) {
         state.historys = !state.historys
       },
-      toggleLinks(state) {
+      toggleLinks (state) {
         state.links = !state.links
       },
-      toggleProducts(state) {
+      toggleProducts (state) {
         state.products = !state.products
       }
     }
