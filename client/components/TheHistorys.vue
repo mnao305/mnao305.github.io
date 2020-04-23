@@ -17,6 +17,7 @@
                   11月9日 NRI Secure NetWars 2019 23/94位(<a
                     href="https://twitter.com/mnao_305/status/1193076993337647104"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -24,6 +25,7 @@
                   6月21日 情報処理安全確保支援士試験 合格(<a
                     href="https://twitter.com/mnao_305/status/1141905363697975296"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -42,6 +44,7 @@
                   12月21日 応用情報技術者試験 合格(<a
                     href="https://twitter.com/mnao_305/status/1075950147421405186"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -49,6 +52,7 @@
                   12月12日 MBSD Cybersecurity Challenges 2018 最優秀賞(<a
                     href="https://twitter.com/mnao_305/status/1072787982413754368"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -57,6 +61,7 @@
                   8月14-16日 セキュリティ・キャンプ全国大会2018 参加(<a
                     href="https://twitter.com/mnao_305/status/1029200753196318727"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -64,6 +69,7 @@
                   3月3日 セキュリティ・ミニキャンプ in 四国 2018(徳島) 参加(<a
                     href="https://twitter.com/mnao_305/status/969858048377237505"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -82,6 +88,7 @@
                   11月15日 基本情報技術者試験 合格(<a
                     href="https://twitter.com/mnao_305/status/930788927778123776"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
@@ -89,6 +96,7 @@
                   8月30-31日 SANS NetWars 参加(<a
                     href="https://twitter.com/mnao_305/status/902687218505965568"
                     target="_blank"
+                    rel="noopener"
                   >
                     Twitter </a>)
                 </li>
