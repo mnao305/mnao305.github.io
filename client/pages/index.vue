@@ -3,7 +3,7 @@
   <v-layout v-show="load" wrap class="index">
     <v-flex xs12 sm6 md6 class="iconName">
       <div class="icon">
-        <img src="/icon.png">
+        <img src="/icon.png" alt="icon">
       </div>
       <p>mnao305</p>
     </v-flex>
