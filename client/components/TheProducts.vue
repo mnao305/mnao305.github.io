@@ -28,7 +28,7 @@
               href="https://github.com/mnao305/imgFavtter"
               target="_blank"
             >
-              <v-icon>fab fa-github</v-icon>Source code
+              <FontAwesomeIcon :icon="['fab', 'github']" size="2x" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Source code
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -47,7 +47,7 @@
                 <v-list class="listLink">
                   <v-list-tile
                     color="#0097a7"
-                    href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl"
+                    href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldn2xapekhl"
                     target="_blank"
                   >
                     <v-list-tile-title class="text-xs-center">
@@ -79,7 +79,7 @@
               href="https://github.com/mnao305/VRCFriendCheck"
               target="_blank"
             >
-              <v-icon>fab fa-github</v-icon>Source code
+              <FontAwesomeIcon :icon="['fab', 'github']" size="2x" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Source code
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -108,7 +108,7 @@
               href="https://github.com/mnao305/mai-score"
               target="_blank"
             >
-              <v-icon>fab fa-github</v-icon>Source code
+              <FontAwesomeIcon :icon="['fab', 'github']" size="2x" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Source code
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -142,7 +142,7 @@
               href="https://github.com/mnao305/mai-score"
               target="_blank"
             >
-              <v-icon>fab fa-github</v-icon>Source code
+              <FontAwesomeIcon :icon="['fab', 'github']" size="2x" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Source code
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -176,7 +176,7 @@
               href="https://github.com/mnao305/video-screenshot"
               target="_blank"
             >
-              <v-icon>fab fa-github</v-icon>Source code
+              <FontAwesomeIcon :icon="['fab', 'github']" size="2x" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Source code
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -203,7 +203,7 @@
               href="https://github.com/mnao305/mnao305.github.io"
               target="_blank"
             >
-              <v-icon>fab fa-github</v-icon>Source code
+              <FontAwesomeIcon :icon="['fab', 'github']" size="2x" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Source code
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -222,9 +222,6 @@
 </template>
 
 <style lang="scss">
-.v-icon {
-  margin-right: 5px;
-}
 .products {
   .v-card {
     a {

@@ -8,42 +8,42 @@
       <ul class="text-xs-center">
         <li>
           <a href="https://twitter.com/mnao_305" target="_blank">
-            <v-icon>fab fa-twitter</v-icon>Twitter
+            <FontAwesomeIcon :icon="['fab', 'twitter']" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Twitter
           </a>
         </li>
         <li>
           <a href="https://github.com/mnao305" target="_blank">
-            <v-icon>fab fa-github</v-icon>GitHub
+            <FontAwesomeIcon :icon="['fab', 'github']" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />GitHub
           </a>
         </li>
         <li>
           <a href="https://mnao305.hatenablog.com/" target="_blank">
-            <v-icon>fa-blog</v-icon>Blog
+            <FontAwesomeIcon icon="blog" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Blog
           </a>
         </li>
         <li>
           <a href="https://qiita.com/mnao305" target="_blank">
-            <v-icon>fa-search</v-icon>Qiita
+            <FontAwesomeIcon icon="search" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Qiita
           </a>
         </li>
         <li>
           <a href="https://www.flickr.com/photos/mnao305/" target="_blank">
-            <v-icon>fab fa-flickr</v-icon>Flickr
+            <FontAwesomeIcon :icon="['fab', 'flickr']" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Flickr
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/mnao305/" target="_blank">
-            <v-icon>fab fa-instagram</v-icon>Instagram
+            <FontAwesomeIcon :icon="['fab', 'instagram']" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Instagram
           </a>
         </li>
         <li>
           <a href="https://ja.foursquare.com/mnao_305" target="_blank">
-            <v-icon>fab fa-foursquare</v-icon>foursquare(Swarm)
+            <FontAwesomeIcon :icon="['fab', 'foursquare']" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />foursquare(Swarm)
           </a>
         </li>
         <li>
           <a href="http://amzn.asia/aa05E8q" target="_blank">
-            <v-icon>fab fa-amazon</v-icon>Amazon Wish List
+            <FontAwesomeIcon :icon="['fab', 'amazon']" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Amazon Wish List
           </a>
         </li>
         <li />
@@ -78,13 +78,6 @@
       width: 100%;
       text-decoration: none;
       color: #0097a7;
-    }
-    .v-icon {
-      font-size: 2.5rem;
-      @media screen and (max-width: 500px) {
-        font-size: 1.5rem;
-      }
-      margin-right: 5px;
     }
   }
 }
