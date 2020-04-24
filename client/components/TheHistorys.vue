@@ -123,7 +123,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn color="primary" flat @click="$store.commit('toggleHistorys')">
+      <v-btn color="primary" flat @click="$emit('changeHistorysFlg')">
         Close
       </v-btn>
     </v-card-actions>

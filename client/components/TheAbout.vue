@@ -24,7 +24,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn color="primary" flat @click="$store.commit('toggleAbout')">
+      <v-btn color="primary" flat @click="$emit('changeAboutFlg')">
         Close
       </v-btn>
     </v-card-actions>

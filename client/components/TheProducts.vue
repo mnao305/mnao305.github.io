@@ -232,7 +232,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn color="primary" flat @click="$store.commit('toggleProducts')">
+      <v-btn color="primary" flat @click="$emit('changeProductsFlg')">
         Close
       </v-btn>
     </v-card-actions>

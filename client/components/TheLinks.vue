@@ -54,7 +54,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn color="primary" flat @click="$store.commit('toggleLinks')">
+      <v-btn color="primary" flat @click="$emit('changeLinksFlg')">
         Close
       </v-btn>
     </v-card-actions>
