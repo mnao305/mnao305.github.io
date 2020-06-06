@@ -52,7 +52,7 @@
                 <v-list class="listLink">
                   <v-list-tile
                     color="#0097a7"
-                    href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldn2xapekhl"
+                    href="https://chrome.google.com/webstore/detail/vrcfriendcheck/fkhfmlkfiaafmoaobaofhldnlgapekhl"
                     target="_blank"
                     rel="noopener"
                   >
