@@ -153,7 +153,7 @@
             <v-btn
               flat
               color="cyan"
-              href="https://github.com/mnao305/mai-score"
+              href="https://github.com/mnao305/exbeak"
               target="_blank"
               rel="noopener"
             >
