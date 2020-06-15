@@ -6,16 +6,16 @@
 
     <v-card-text class="about">
       <div class="text-xs-center">
-        <v-icon>fa-graduation-cap</v-icon>
+        <FontAwesomeIcon icon="graduation-cap" size="3x" :style="{ color: 'rgba(0,0,0,.54)' }" />
         <p>情報科学専門学校 / IPFactory</p>
-        <v-icon>fa-desktop</v-icon>
+        <FontAwesomeIcon icon="desktop" size="3x" :style="{ color: 'rgba(0,0,0,.54)' }" />
         <p>VSCode / JavaScript / Vue.js / Nuxt.js</p>
-        <v-icon>fa-certificate</v-icon>
+        <FontAwesomeIcon icon="certificate" size="3x" :style="{ color: 'rgba(0,0,0,.54)' }" />
         <p>
           ITパスポート / 基本情報技術者試験 / 応用情報技術者試験 /
           情報処理安全確保支援士試験
         </p>
-        <v-icon>fa-trophy</v-icon>
+        <FontAwesomeIcon icon="trophy" size="3x" :style="{ color: 'rgba(0,0,0,.54)' }" />
         <p>MBSD Cybersecurity Challenges 2018 最優秀賞</p>
       </div>
     </v-card-text>
@@ -24,7 +24,7 @@
 
     <v-card-actions>
       <v-spacer />
-      <v-btn color="primary" flat @click="$store.commit('toggleAbout')">
+      <v-btn color="primary" flat @click="$emit('changeAboutFlg')">
         Close
       </v-btn>
     </v-card-actions>
@@ -39,13 +39,6 @@
     @media screen and (max-width: 500px) {
       font-size: 1rem;
     }
-  }
-  .v-icon {
-    font-size: 2.5rem;
-    @media screen and (max-width: 500px) {
-      font-size: 1.5rem;
-    }
-    margin-right: 5px;
   }
 }
 </style>

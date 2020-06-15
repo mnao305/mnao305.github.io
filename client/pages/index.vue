@@ -1,9 +1,9 @@
 <template>
   <!-- デザインセンスをくれ -->
-  <v-layout v-show="load" wrap class="index">
+  <v-layout v-show="loadFlg" wrap class="index">
     <v-flex xs12 sm6 md6 class="iconName">
       <div class="icon">
-        <img src="/icon.png">
+        <img src="/icon.png" alt="icon">
       </div>
       <p>mnao305</p>
     </v-flex>
@@ -14,7 +14,7 @@
         large
         block
         flat
-        @click="$store.commit('toggleAbout')"
+        @click="changeAboutFlg"
       >
         About→
       </v-btn>
@@ -24,7 +24,7 @@
         large
         block
         flat
-        @click="$store.commit('toggleHistorys')"
+        @click="changeHistorysFlg"
       >
         History→
       </v-btn>
@@ -34,7 +34,7 @@
         large
         block
         flat
-        @click="$store.commit('toggleLinks')"
+        @click="changeLinksFlg"
       >
         Links→
       </v-btn>
@@ -44,23 +44,23 @@
         large
         block
         flat
-        @click="$store.commit('toggleProducts')"
+        @click="changeProductsFlg"
       >
         Products→
       </v-btn>
     </v-flex>
 
-    <v-dialog v-model="about" max-width="1000px">
-      <about />
+    <v-dialog v-model="aboutFlg" max-width="1000px">
+      <about @changeAboutFlg="changeAboutFlg" />
     </v-dialog>
-    <v-dialog v-model="historys" max-width="1000px">
-      <historys />
+    <v-dialog v-model="historysFlg" max-width="1000px">
+      <historys @changeHistorysFlg="changeHistorysFlg" />
     </v-dialog>
-    <v-dialog v-model="links" max-width="500px">
-      <links />
+    <v-dialog v-model="linksFlg" max-width="500px">
+      <links @changeLinksFlg="changeLinksFlg" />
     </v-dialog>
-    <v-dialog v-model="products">
-      <products />
+    <v-dialog v-model="productsFlg">
+      <products @changeProductsFlg="changeProductsFlg" />
     </v-dialog>
   </v-layout>
 </template>
@@ -80,45 +80,29 @@ export default {
   },
   data () {
     return {
-      load: false
-    }
-  },
-  computed: {
-    about: {
-      get () {
-        return this.$store.state.about
-      },
-      set () {
-        this.$store.commit('toggleAbout')
-      }
-    },
-    historys: {
-      get () {
-        return this.$store.state.historys
-      },
-      set () {
-        this.$store.commit('toggleHistorys')
-      }
-    },
-    links: {
-      get () {
-        return this.$store.state.links
-      },
-      set () {
-        this.$store.commit('toggleLinks')
-      }
-    },
-    products: {
-      get () {
-        return this.$store.state.products
-      },
-      set () {
-        this.$store.commit('toggleProducts')
-      }
+      loadFlg: false,
+      aboutFlg: false,
+      historysFlg: false,
+      linksFlg: false,
+      productsFlg: false
     }
   },
   mounted () {
-    this.load = true
+    this.loadFlg = true
+  },
+  methods: {
+    changeAboutFlg () {
+      this.aboutFlg = !this.aboutFlg
+    },
+    changeHistorysFlg () {
+      this.historysFlg = !this.historysFlg
+    },
+    changeLinksFlg () {
+      this.linksFlg = !this.linksFlg
+    },
+    changeProductsFlg () {
+      this.productsFlg = !this.productsFlg
+    }
   }
 }
 </script>

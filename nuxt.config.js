@@ -10,6 +10,9 @@ module.exports = {
    */
   head: {
     title: 'mnao305.com',
+    htmlAttrs: {
+      lang: 'ja'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,7 +22,7 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+          'https://fonts.googleapis.com/css?family=Material+Icons&display=swap'
       }
     ]
   },
@@ -34,14 +37,18 @@ module.exports = {
    */
   css: [
     '~/assets/style/app.styl',
-    '@fortawesome/fontawesome-free/css/all.css',
-    '~/assets/style/style.css'
+    '~/assets/style/style.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/vuetify', { src: '~/plugins/ga.js', ssr: false }],
+  plugins: [
+    '@/plugins/vuetify',
+    { src: '@/plugins/ga.js', ssr: false },
+    '@/plugins/fontawesome'
+  ],
 
   /*
    ** Nuxt.js modules
