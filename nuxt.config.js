@@ -4,6 +4,7 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
   srcDir: 'client/',
+  target: 'static',
 
   /*
    ** Headers of the page
