@@ -17,7 +17,7 @@
           </a>
         </li>
         <li>
-          <a href="https://mnao305.hatenablog.com/" target="_blank" rel="noopener">
+          <a href="https://blog.mnao305.com/" target="_blank" rel="noopener">
             <FontAwesomeIcon icon="blog" size="lg" :style="{ color: 'rgba(0,0,0,.54)', marginRight: '5px' }" />Blog
           </a>
         </li>
