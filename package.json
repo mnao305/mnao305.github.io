@@ -44,6 +44,6 @@
     "prettier": "2.1.1",
     "sass-loader": "8.0.2",
     "stylus": "0.54.8",
-    "stylus-loader": "3.0.2"
+    "stylus-loader": "5.0.0"
   }
 }
